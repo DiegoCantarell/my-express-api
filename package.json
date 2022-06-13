@@ -1,0 +1,19 @@
+{
+  "name": "my-express-api",
+  "version": "1.0.0",
+  "description": "My First API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoCantarell/my-express-api.git"
+  },
+  "author": "diegocantarell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoCantarell/my-express-api/issues"
+  },
+  "homepage": "https://github.com/DiegoCantarell/my-express-api#readme"
+}
