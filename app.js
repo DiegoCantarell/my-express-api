@@ -22,4 +22,10 @@ app.get('/v1/explorers', (req, res) => {
     const data = [data1,data2,data3,data4,data5]
     res.status(200).json(data)
 })
-
+//GET Create an endpoint that an explorer returns to you using an ID
+app.get('/v1/explorers/:id',(req, res) => {
+    console.log(`API explorers GET request ${new Date()}`)
+    console.log(`Getting explorer with id ${req.params.id}`)
+    const explorer = {id:1, name: "Diego"}
+    res.status(200).json(explorer)
+})
