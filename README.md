@@ -14,3 +14,4 @@
 
 * DELETE Create an endpoint to delete an explorer
 
+**The API can be proved using the [Folder](https://github.com/DiegoCantarell/my-express-api/tree/main/my-express-api.postman_collection.json.1) and the client to prove an endpoint like "Postman"**
